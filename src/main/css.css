@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: hotpink;
+    overflow: hidden;
+}
+.text{
+    border-radius: 50%;
+    text-tranform: uppercase;
+    color: purple;
+}
+form{
+    border-radius: 20%;
+    background-color: white;
+    width: 400px;
+    padding: 40px;
+    margin-top: 60px;
+}
+.fromContent{
+
+    width: 550px;
+    /*margin:35px 35px 35px 35px;*/
+    margin: 0 auto;
+    text-align: center;
+
+}
+input{
+    border-radius: 20px;
+    display: block;
+    padding: 15px 20px;
+    outline: none;
+    width: 360px;
+    margin: 50px 0px 50px 0px;
+}
+input:focus {
+    border: 1px solid mediumspringgreen;
+}
+input:hover{
+    background-color: cornflowerblue;
+}
+#myButton{
+    border-radius: 20%;
+    padding: 10px 40px 10px 40px;
+    background-color: deeppink;
+    color: white;
+    display: block;
+    margin: 0px 150px 0px 150px;
+}
